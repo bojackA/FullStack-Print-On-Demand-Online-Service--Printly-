@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("pics/Best-Print-on-Demand-WooCommerce-Plugins-for-2022.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+
+    .top-bar {
+      background-color: #333;
+      color: #fff;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    .logo {
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-right: 10px;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    .content {
+      margin: 40px auto;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .product-button {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .product-button img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .product-button span {
+      display: block;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .product-button {
+        margin: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo">Printly</div>
+    <div>
+      <a href="login.html" class="button">Login</a>
+      <a href="signup.html" class="button">Signup</a>
+    </div>
+  </div>
+
+
+
+    <div class="product-button">
+      <a href="">
+        <img src="pics/360_F_164001462_8auz2ztGhzhrFgb7qKLDCCzdUp5IHiAG.jpg" alt="T-shirts">
+        </a>
+        <span>T-shirts</span>
+      
+    </div>
+
+    <div class="product-button">
+      <a href="">
+        <img src="pics/istockphoto-1220041374-170667a (1).jpg" alt="Cups">
+      </a>
+        <span>Mugs</span>
+     
+    </div>
+  </div>
+</body>
+</html>
